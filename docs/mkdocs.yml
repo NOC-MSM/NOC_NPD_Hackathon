@@ -1,0 +1,85 @@
+site_name: NOC Near-Present Day Hackathon 2026
+site_url: https://noc-msm.github.io/noc_npd_hackathon/
+
+repo_url: https://github.com/NOC-MSM/NOC_NPD_Hackathon
+repo_name: NOC_NPD_Hackathon
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  language: en
+  logo: assets/icons/noc_logo_dark.png
+  favicon: assets/icons/favicon.ico
+  icon:
+    edit: material/pencil 
+    view: material/eye
+    repo: fontawesome/brands/git-alt
+  font:
+    text: Roboto
+    code: Roboto Mono
+  features:
+    - content.action.edit
+    - content.tabs.link
+    - content.code.copy
+    - content.code.annotate
+    - content.code.select
+    - toc.integrate
+    - navigation.tabs
+    - navigation.path
+    - navigation.footer
+    - search.suggest
+
+  palette:
+    # Dark Mode
+    - scheme: default
+      primary: white
+      accent: blue
+
+markdown_extensions:
+  - attr_list
+  - tables
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.details
+  - pymdownx.tilde
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.arithmatex:
+      generic: true
+  - md_in_html
+  - pymdownx.blocks.caption
+
+nav:
+  - About: index.md
+  - Schedule: schedule.md
+  - Tutorials:
+    - tutorials.md
+    - 0. Getting Started with xarray: tutorial_0_getting_started_with_xarray.ipynb
+    - 1. Getting Started with OceanDataStore: tutorial_1_getting_started_with_oceandatastore.ipynb
+    - 2. Getting Started with NEMO Cookbook: tutorial_2_getting_started_with_nemo_cookbook.ipynb
+  - Science Themes: science_themes.md
+  - FAQs: faqs.md
+
+plugins:
+  - search
+  - glightbox
+  - mkdocs-jupyter:
+      include_source: True
+
+extra:
+  social:
+    - icon: fontawesome/brands/github 
+      link: https://github.com/NOC-MSM/NOC_NPD_Hackathon
+      name: GitHub
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
