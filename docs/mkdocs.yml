@@ -63,7 +63,7 @@ nav:
   - Tutorials:
     - tutorials.md
     - 0. Getting Started with xarray: tutorial_0_getting_started_with_xarray.ipynb
-    - 1. Getting Started with OceanDataStore: tutorial_1_getting_started_with_oceandatastore.ipynb
+    - 1. Getting Started with OceanDataStore: tutorial_1_getting_started_with_OceanDataStore.ipynb
     - 2. Getting Started with NEMO Cookbook: tutorial_2_getting_started_with_nemo_cookbook.ipynb
   - Science Themes: science_themes.md
   - FAQs: faqs.md
