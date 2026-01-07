@@ -22,8 +22,8 @@
 
 * [13:00 - 13:45] **--> Tutorial 3:** Running your own experiments with NOC NPD
 
-* [13:45 - 14:00] **========== Break ==========**
+* [13:45 - 15:15] **--> Group Hackathon 3:** Analysis & Summaries
 
-* [14:00 - 15:30] **--> Group Hackathon 3:** Analysis & Summaries
+* [15:15 - 15:30] **========== Break ==========**
 
 * [15:30 - 16:30] **--> Summary Session:** Summaries from Science Themes
