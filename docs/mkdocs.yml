@@ -60,6 +60,7 @@ markdown_extensions:
 nav:
   - About: index.md
   - Schedule: schedule.md
+  - Getting Started: getting_started.md
   - Tutorials:
     - tutorials.md
     - 0. Getting Started with xarray: tutorial_0_getting_started_with_xarray.ipynb
