@@ -48,4 +48,4 @@ For those with limited Python experience, we would recommend working through **T
 
 * **3. Running your own experiments with NOC NPD.**
 
-    Aa
+    In this tutorial, we will demonstrate how to quickly download and run custom experiments using the existing NOC Near-Present Day configurations. We will also hihglight some recent examples, including the development of a new nested configuration used to perform Observing System Simulation Experiments (OSSEs) for the RAPID-Evolution project.

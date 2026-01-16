@@ -13,7 +13,7 @@
 
 * [15:00 - 17:00]    **Group Hackathon 1:** Introducing Science Themes & Analysis
 
-## Day 2: Tuesday 20th January 2026
+## **Day 2: Tuesday 20th January 2026**
 * [09:30 - 10:15]    **Introduction to NOC NPD Hackathon Day 2**
 
 * [10:15 - 12:00]    **Group Hackathon 2:** Analysis
