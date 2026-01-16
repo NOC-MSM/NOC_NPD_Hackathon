@@ -9,6 +9,7 @@ dependencies:
   - cmocean=4.0.3
   - dask=2025.12.0
   - distributed=2025.12.0
+  - eofs=2.0.0
   - flox=0.10.8
   - fsspec=2025.12.0
   - gsw=3.6.20
@@ -17,6 +18,7 @@ dependencies:
   - ipykernel=7.1.0
   - jupyter=1.1.1
   - matplotlib=3.10.8
+  - nc-time-axis=1.4.1
   - netcdf4=1.7.3
   - notebook=7.5.1
   - numba=0.63.1
@@ -38,5 +40,6 @@ dependencies:
   - xesmf=0.9.2
   - zarr=3.1.5
   - pip:
+      - pycwt==0.5.0b0
       - "git+https://github.com/NOC-MSM/nemo_cookbook.git"
       - "git+https://github.com/NOC-MSM/OceanDataStore.git"
