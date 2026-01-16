@@ -22,7 +22,7 @@ Participants typically work in teams to rapidly analyse scientific data and lear
 The NOC NPD Hackathon event will include tutorials covering...
 
 * Accessing NPD model outputs via the cloud using the [**OceanDataStore**](https://noc-msm.github.io/OceanDataStore/).
-* Analyse NEMO ocea sea-ice model outputs using the open-source [**NEMO Cookbook**](https://noc-msm.github.io/nemo_cookbook/) Python package.
+* Analyse NEMO ocean sea-ice model outputs using the open-source [**NEMO Cookbook**](https://noc-msm.github.io/nemo_cookbook/) Python package.
 
 ...and hands-on analysis sessions centered around three **Science Themes**:
 

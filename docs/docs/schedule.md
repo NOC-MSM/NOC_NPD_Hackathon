@@ -7,7 +7,7 @@
 
 * [12:00 - 13:00]    **========== Lunch ==========**
 
-* [13:00 - 14:30]    **Tutorial 2:** Using NEMO Cookbook to analyse NOC NPD data
+* [13:00 - 14:30]    **Tutorial 2:** Analysing NOC NPD data using NEMO Cookbook
 
 * [14:30 - 15:00]    **========== Break ==========**
 
