@@ -54,9 +54,13 @@ where the `url` is composed of a **Base URL** and **Available Dataset** (i.e., `
 
 **NSIDC Observations**
     
-For further details, see NSIDC [**here**](https://nsidc.org/data/g02135/versions/3).
+For further details, see NSIDC [**here**](https://nsidc.org/data/g02135/versions/4).
 
-**Base URL:** [**https://noc-msm-o.s3-ext.jc.rl.ac.uk/ocean-obs/NSIDC/**](**https://noc-msm-o.s3-ext.jc.rl.ac.uk/ocean-obs/NSIDC/**)
+**Base URL:** 
+
+```
+https://noc-msm-o.s3-ext.jc.rl.ac.uk/ocean-obs/NSIDC/
+```
 
 **Available Datasets:**
  
@@ -71,7 +75,11 @@ For further details, see NSIDC [**here**](https://nsidc.org/data/g02135/versions
     
 For further details, see HadISST [**here**](https://www.metoffice.gov.uk/hadobs/hadisst/).
 
-**Base URL:** [**https://noc-msm-o.s3-ext.jc.rl.ac.uk/ocean-obs/HadISST/**](**https://noc-msm-o.s3-ext.jc.rl.ac.uk/ocean-obs/HadISST/**)
+**Base URL:**
+
+```
+https://noc-msm-o.s3-ext.jc.rl.ac.uk/ocean-obs/HadISST/
+```
 
 **Available Datasets:**
  
@@ -83,7 +91,11 @@ For further details, see HadISST [**here**](https://www.metoffice.gov.uk/hadobs/
     
 For further details, see OISSTv2 [**here**](https://psl.noaa.gov/data/gridded/data.noaa.oisst.v2.highres.html).
 
-**Base URL:** [**https://noc-msm-o.s3-ext.jc.rl.ac.uk/ocean-obs/OISSTv2/**](**https://noc-msm-o.s3-ext.jc.rl.ac.uk/ocean-obs/OISSTv2/**)
+**Base URL:** 
+
+```
+https://noc-msm-o.s3-ext.jc.rl.ac.uk/ocean-obs/OISSTv2/
+```
 
 **Available Datasets:**
  
@@ -98,7 +110,11 @@ For further details, see OISSTv2 [**here**](https://psl.noaa.gov/data/gridded/da
     
 For further details, see EN4.2.2 [**here**](https://www.metoffice.gov.uk/hadobs/en4/download-en4-2-2.html).
 
-**Base URL:** [**https://noc-msm-o.s3-ext.jc.rl.ac.uk/ocean-obs/EN4/**](**https://noc-msm-o.s3-ext.jc.rl.ac.uk/ocean-obs/EN4/**)
+**Base URL:**
+
+```
+https://noc-msm-o.s3-ext.jc.rl.ac.uk/ocean-obs/EN4/
+```
 
 **Available Datasets:**
 
@@ -110,7 +126,11 @@ For further details, see EN4.2.2 [**here**](https://www.metoffice.gov.uk/hadobs/
     
 For further details, see ARMOR-3D [**here**](https://data.marine.copernicus.eu/product/MULTIOBS_GLO_PHY_TSUV_3D_MYNRT_015_012/description).
 
-**Base URL:** [**https://noc-msm-o.s3-ext.jc.rl.ac.uk/ocean-obs/ARMOR3D/**](**https://noc-msm-o.s3-ext.jc.rl.ac.uk/ocean-obs/ARMOR3D/**)
+**Base URL:** 
+
+```
+https://noc-msm-o.s3-ext.jc.rl.ac.uk/ocean-obs/ARMOR3D/
+```
 
 **Available Datasets:**
 
@@ -122,7 +142,11 @@ For further details, see ARMOR-3D [**here**](https://data.marine.copernicus.eu/p
     
 For further details, see RAPID Data [**here**](https://rapid.ac.uk/data).
 
-**Base URL:** [**https://noc-msm-o.s3-ext.jc.rl.ac.uk/ocean-obs/RAPID/**](**https://noc-msm-o.s3-ext.jc.rl.ac.uk/ocean-obs/RAPID/**)
+**Base URL:**
+
+```
+https://noc-msm-o.s3-ext.jc.rl.ac.uk/ocean-obs/RAPID/
+```
 
 **Available Datasets:**
 
@@ -140,7 +164,11 @@ For further details, see RAPID Data [**here**](https://rapid.ac.uk/data).
     
 For further details, see OSNAP Data [**here**](https://www.o-snap.org/data-access/).
 
-**Base URL:** [**https://noc-msm-o.s3-ext.jc.rl.ac.uk/ocean-obs/OSNAP/**](**https://noc-msm-o.s3-ext.jc.rl.ac.uk/ocean-obs/OSNAP/**)
+**Base URL:**
+
+```
+https://noc-msm-o.s3-ext.jc.rl.ac.uk/ocean-obs/OSNAP/
+```
 
 **Available Datasets:**
 
@@ -154,7 +182,11 @@ For further details, see OSNAP Data [**here**](https://www.o-snap.org/data-acces
 
 For further details, see World Ocean Atlas [**here**](https://www.ncei.noaa.gov/access/world-ocean-atlas-2023/).
 
-**Base URL:** [**https://noc-msm-o.s3-ext.jc.rl.ac.uk/ocean-obs/WOA23/**](**https://noc-msm-o.s3-ext.jc.rl.ac.uk/ocean-obs/WOA23/**)
+**Base URL:**
+
+```
+https://noc-msm-o.s3-ext.jc.rl.ac.uk/ocean-obs/WOA23/
+```
 
 **Available Datasets:**
 
