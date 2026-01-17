@@ -67,6 +67,7 @@ nav:
     - 1. Getting Started with OceanDataStore: tutorial_1_getting_started_with_OceanDataStore.ipynb
     - 2. Getting Started with NEMO Cookbook: tutorial_2_getting_started_with_nemo_cookbook.ipynb
   - Science Themes: science_themes.md
+  - Resources: resources.md
   - FAQs: faqs.md
 
 plugins:

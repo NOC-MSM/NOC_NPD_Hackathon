@@ -41,6 +41,15 @@ Below we have provided a list of useful links to documentation and data sources 
 ---
 
 ### **Data**
+
+The observational datasets below are accessible via the JASMIN object store using `xarray.open_zarr()` as follows:
+
+```python
+xr.open_zarr(url, zarr_format=3)
+```
+
+where the `url` is composed of a **Base URL** and **Available Dataset** (i.e., `url = <base_url>/<dataset>`)
+
 ---
 
 **NSIDC Observations**
