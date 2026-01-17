@@ -1,0 +1,199 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "noc-npd-jra55/npd-eorca1-jra55v1/gn/domain/domain_cfg",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          -90.0
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -180.0,
+    -90.0,
+    180.0,
+    90.0
+  ],
+  "properties": {
+    "title": "eORCA1 JRA55v1 NPD domain/domain_cfg Zarr store",
+    "description": "Zarr store containing eORCA1 JRA55v1 NPD global ocean model domain and mesh mask variables.",
+    "platform": "gn",
+    "variables": [
+      "e1t",
+      "e2v",
+      "bottom_level",
+      "e2t",
+      "e2u",
+      "bathy_metry",
+      "e1v",
+      "e2f",
+      "e1u",
+      "e1f",
+      "e3u_0",
+      "e3f_0",
+      "e3uw_0",
+      "e3t_0",
+      "e3v_0",
+      "e3vw_0",
+      "e3w_0",
+      "e3w_1d",
+      "ff_t",
+      "e3t_1d",
+      "ff_f",
+      "gdept_0",
+      "glamf",
+      "gdepw_0",
+      "gdept_1d",
+      "gdepw_1d",
+      "glamu",
+      "glamt",
+      "glamv",
+      "gphit",
+      "gphif",
+      "gphiu",
+      "jpjglo",
+      "gphiv",
+      "jpiglo",
+      "ln_sco",
+      "ln_isfcav",
+      "jperio",
+      "jpkglo",
+      "ln_zco",
+      "ln_zps",
+      "mask_csglo",
+      "mask_csemp",
+      "mask_csgrpemp",
+      "mask_csgrpglo",
+      "mask_csgrprnf",
+      "mask_opensea",
+      "mask_csrnf",
+      "nav_lev",
+      "mask_csundef",
+      "nav_lat",
+      "nav_lon",
+      "time_counter",
+      "top_level"
+    ],
+    "variable_standard_names": [
+      "e1t",
+      "e2v",
+      "bottom_level",
+      "e2t",
+      "e2u",
+      "bathy_metry",
+      "e1v",
+      "e2f",
+      "e1u",
+      "e1f",
+      "e3u_0",
+      "e3f_0",
+      "e3uw_0",
+      "e3t_0",
+      "e3v_0",
+      "e3vw_0",
+      "e3w_0",
+      "e3w_1d",
+      "ff_t",
+      "e3t_1d",
+      "ff_f",
+      "gdept_0",
+      "glamf",
+      "gdepw_0",
+      "gdept_1d",
+      "gdepw_1d",
+      "glamu",
+      "glamt",
+      "glamv",
+      "gphit",
+      "gphif",
+      "gphiu",
+      "jpjglo",
+      "gphiv",
+      "jpiglo",
+      "ln_sco",
+      "ln_isfcav",
+      "jperio",
+      "jpkglo",
+      "ln_zco",
+      "ln_zps",
+      "mask_csglo",
+      "mask_csemp",
+      "mask_csgrpemp",
+      "mask_csgrpglo",
+      "mask_csgrprnf",
+      "mask_opensea",
+      "mask_csrnf",
+      "nav_lev",
+      "mask_csundef",
+      "nav_lat",
+      "nav_lon",
+      "time_counter",
+      "top_level"
+    ],
+    "dimensions": [
+      "t",
+      "y",
+      "x",
+      "z"
+    ],
+    "operation": "None",
+    "operation_frequency": "None",
+    "ocean_component": "NEMO v4.2.2",
+    "si_component": "SI3 v4.0",
+    "status": "completed",
+    "latest_data_update": "2025-12-02T20:14:06.672299",
+    "start_datetime": "1976-01-01T00:00:00Z",
+    "end_datetime": "2024-02-01T00:00:00Z",
+    "datetime": null
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../../../../../../../../../catalog.json",
+      "type": "application/json",
+      "title": "NOC Model STAC Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../../../../../../../../../catalog.json",
+      "type": "application/json",
+      "title": "eORCA1 JRA55v1 NPD global native model grid Catalog"
+    }
+  ],
+  "assets": {
+    "domain_cfg": {
+      "href": "https://noc-msm-o.s3-ext.jc.rl.ac.uk/npd-eorca1-jra55v1/domain/domain_cfg",
+      "type": "application/vnd.zarr",
+      "title": "eORCA1 JRA55v1 NPD domain/domain_cfg Zarr store.",
+      "description": "Zarr store containing eORCA1 JRA55v1 NPD global ocean model domain and mesh mask variables.",
+      "bucket": "npd-eorca1-jra55v1",
+      "prefix": "domain/domain_cfg",
+      "endpoint_url": "https://noc-msm-o.s3-ext.jc.rl.ac.uk",
+      "zarr_format": 3,
+      "anonymous": true
+    }
+  },
+  "collection": "noc-npd-jra55"
+}
