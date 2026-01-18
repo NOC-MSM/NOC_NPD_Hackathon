@@ -36,7 +36,7 @@ As part of the Atlantic Climate and Environment Strategic Science ([**AtlantiS**
 
 Our aim is that the **NPD** simulations will be kept up to date with a 1-3 month lag.
 
-The **NPD** hierarchy consists of three ocean sea-ice configurations of NEMO v4.2 at 1$^{\circ}$, 1/4$^{\circ}$ and 1/12$^{\circ}$ nominal horizontal resolution.
+The **NPD** hierarchy consists of three ocean sea-ice configurations of NEMO v4.2 at 1°, 1/4° and 1/12° nominal horizontal resolution.
 
 The **NPD** version 1 simulations have been perfomed using a climatologically adjusted version of the **ERA-5 atmospheric reanalysis** ([Hersbach et al., 2020](https://doi.org/10.1002/qj.3803)). A climatological adjustment is applied to the ERA-5 hourly 2 m temperature field over regions where (ERA-5) sea ice cover > 0% to account for the well established Surface Air Temperature bias at high-latitudes ([Tjernström & Graversen, 2009](https://doi.org/10.1002/qj.380); [Zampieri et al., 2023](https://doi.org/10.1175/MWR-D-22-0130.1)).
 

@@ -4,7 +4,7 @@ Below we have provided a list of useful links to documentation and data sources 
 
 ---
 
-### **Documentation**
+## **Documentation**
 
 * **NOC Near-Present Day**
 
@@ -40,7 +40,9 @@ Below we have provided a list of useful links to documentation and data sources 
 
 ---
 
-### **Data**
+## **Data**
+
+### **Ocean Observations**
 
 The observational datasets below are accessible via the JASMIN object store using `xarray.open_zarr()` as follows:
 
@@ -199,3 +201,60 @@ https://noc-msm-o.s3-ext.jc.rl.ac.uk/ocean-obs/WOA23/
 * WOA23_1991_2020_annual_climatology/
 * WOA23_1991_2020_monthly_climatology/
 * WOA23_1991_2020_seasonal_climatology/
+
+### **Shelf Enabled NEMO**
+
+We have also made a subset of the global eORCA025 (NEMO v4.0.4) Shelf Enabled NEMO (SE-NEMO) simulation available via the JASMIN cloud object store.
+
+This 1/4° global ocean sea-ice simulation is forced by JRA55-do atmospheric forcing and initialised from EN.4.1.1 (1995-2014) initial conditions.
+
+Monthly mean outputs defined on NEMO **T/U/V** points are available in version-controlled Icechunk repositories and can be accessed using `xarray.open_zarr()` as follows:
+
+---
+
+#### **NEMO Domain Data**
+
+```python
+import icechunk
+import xarray as xr
+
+# Define Icechunk storage:
+storage = icechunk.s3_storage(
+bucket="senemo-eorca025-jra55v1",
+prefix="domain/domain_cfg",
+region=None,
+anonymous=True,
+endpoint_url="https://noc-msm-o.s3-ext.jc.rl.ac.uk",
+force_path_style=True,
+)
+
+# Open Icechunk repository & start read-only session on main branch:
+repo = icechunk.Repository.open(storage=storage)
+session = repo.readonly_session(branch="main")
+
+# Open Icechunk store as xr.Dataset:
+ds_domain = xr.open_zarr(session.store, consolidated=False)
+ds_domain
+```
+
+#### **NEMO T/U/V Grid Data**
+
+```python
+# Define Icechunk storage:
+storage = icechunk.s3_storage(
+bucket="senemo-eorca025-jra55v1",
+prefix="T1m", # "U1m" / "V1m" / "I1m"
+region=None,
+anonymous=True,
+endpoint_url="https://noc-msm-o.s3-ext.jc.rl.ac.uk",
+force_path_style=True,
+)
+
+# Open Icechunk repository & start read-only session on main branch:
+repo = icechunk.Repository.open(storage=storage)
+session = repo.readonly_session(branch="main")
+
+# Open Icechunk store as xr.Dataset:
+ds_senemo = xr.open_zarr(session.store, consolidated=False)
+ds_senemo
+```
