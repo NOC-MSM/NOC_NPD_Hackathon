@@ -8,41 +8,81 @@ We strongly recommend participants use the **NOC DSP**, given that we have alrea
 
 ## **Using the NOC Data Science Platform**
 
-The NOC Data Science Platform (**DSP**) provides you with easy access to compute resources including Python, Graphical Processing Units (GPUs) and Unix terminals all from your web browser and without the need to install anything on your computer.
+The NOC Data Science Platforms (**DSP**) provide easy access to compute resources including Python, Graphical Processing Units (GPUs) and Unix terminals all from your web browser and without the need to install anything on your computer.
+
+In addition to the local **NOC DSP**, we also have access to a Data Science Platform running on JASMIN (**JASMIN DSP**). This will be used for attendees who do not already have a NOC Linux account.
 
 ### Access
 
-You will first need a NOC Southampton Unix account to connect to the **DSP** and then need to apply for **NOC DSP** access.
+=== "NOC DSP"
 
-Please go to the **NOC DSP** [**Intranet page**](https://nocacuk.sharepoint.com/sites/DigitalOcean/SitePages/Data-Science-Platform.aspx?source=FromArticle#how-do-i-get-access) for details on how to get an account ahead of the Hackathon event.
+    You will first need a NOC Southampton Unix account to connect to the **DSP** and then need to apply for **NOC DSP** access.
+
+    Please go to the **NOC DSP** [**Intranet page**](https://nocacuk.sharepoint.com/sites/DigitalOcean/SitePages/Data-Science-Platform.aspx?source=FromArticle#how-do-i-get-access) for details on how to get an account ahead of the Hackathon event.
+
+=== "JASMIN DSP"
+
+    For those attendees without a NOC Linux account, you will be emailed your login credentials to the **JASMIN DSP** following registration.
 
 ### Logging In
 
-To login to the **NOC DSP**, please connect to https://notebooks.noc.ac.uk and enter your username (without @noc.ac.uk on the end) and Southampton Unix password.
+=== "NOC DSP"
 
-Next, select the **Default** image, including the Pangeo stack, Matlab, Machine Learning/GPU libraries and the LXDE desktop.
+    To login to the **NOC DSP**, connect to [https://notebooks.noc.ac.uk](https://notebooks.noc.ac.uk) and enter your username (without @noc.ac.uk on the end) and Southampton Unix password.
+
+    Next, select the **Default** image, including the Pangeo stack, Matlab, Machine Learning/GPU libraries and the LXDE desktop.
+
+=== "JASMIN DSP"
+
+    To login to the **JASMIN DSP**, connect to [**https://notebooks-ext.noc.ac.uk**](https://notebooks-ext.noc.ac.uk) and enter the username and password sent to you via email ahead of the hackathon.
+
+    Next, select the **Data Science Platform Python Image** image, including the Pangeo stack.
 
 ### Downloading Tutorials & Examples
 
-Once you have logged into the **NOC DSP**, you will see the contents of your home directory `/noc/users/{username}` in the lefthand panel.
+=== "NOC DSP"
 
-Using the **Launcher**, scroll down to **Other** section & open a new **Terminal**, which will open in your home directory.
+    Once you have logged into the **NOC DSP**, you will see the contents of your home directory `/noc/users/{username}` in the lefthand panel.
 
-Next, let's make a local copy of the `NOC_NPD_Hackathon` GitHub repository containing the tutorials and example Jupyter Notebooks used in the Hackathon.
+    Using the **Launcher**, scroll down to **Other** section & open a new **Terminal**, which will open in your home directory.
 
-```bash
-git clone https://github.com/NOC-MSM/NOC_NPD_Hackathon.git
-```
+    Next, let's make a local copy of the `NOC_NPD_Hackathon` GitHub repository containing the tutorials and example Jupyter Notebooks used in the Hackathon.
 
-Once the download is complete, you will see that a new `NOC_NPD_Hackathon` directory has been added to your home directory.
+    ```bash
+    git clone https://github.com/NOC-MSM/NOC_NPD_Hackathon.git
+    ```
 
-Inside `NOC_NPD_Hackathon`, you will find:
+    Once the download is complete, you will see that a new `NOC_NPD_Hackathon` directory has been added to your home directory.
 
-* `/docs` - Documentation source files for this [**NPD Hackathon website**](https://noc-msm.github.io/NOC_NPD_Hackathon/)
+    Inside `NOC_NPD_Hackathon`, you will find:
 
-* `/tutorials` - Jupyter Notebooks for Tutorials 0-2
+    * `/docs` - Documentation source files for this [**NPD Hackathon website**](https://noc-msm.github.io/NOC_NPD_Hackathon/)
 
-* `/examples` - Jupyter Notebook Examples for Science Themes
+    * `/tutorials` - Jupyter Notebooks for Tutorials 0-2
+
+    * `/examples` - Jupyter Notebook Examples for Science Themes
+
+=== "JASMIN DSP"
+
+    Once you have logged into either **JASMIN DSP**, you will see the contents of your home directory `/home/{username}` in the lefthand panel.
+
+    Using the **Launcher**, scroll down to **Other** section & open a new **Terminal**, which will open in your home directory.
+
+    Next, let's make a local copy of the `NOC_NPD_Hackathon` GitHub repository containing the tutorials and example Jupyter Notebooks used in the Hackathon.
+
+    ```bash
+    git clone https://github.com/NOC-MSM/NOC_NPD_Hackathon.git
+    ```
+
+    Once the download is complete, you will see that a new `NOC_NPD_Hackathon` directory has been added to your home directory.
+
+    Inside `NOC_NPD_Hackathon`, you will find:
+
+    * `/docs` - Documentation source files for this [**NPD Hackathon website**](https://noc-msm.github.io/NOC_NPD_Hackathon/)
+
+    * `/tutorials` - Jupyter Notebooks for Tutorials 0-2
+
+    * `/examples` - Jupyter Notebook Examples for Science Themes
 
 !!! note
 
@@ -52,7 +92,7 @@ Inside `NOC_NPD_Hackathon`, you will find:
 
 To get started running the tutorial notebooks, you need to set-up a Jupyter Kernel - the computational engine for your Python code.
 
-We have already installed all of the necessary packages for the tutorial notebooks in a shared Conda environment accessible by everyone on the **NOC DSP**.
+We have already installed all of the necessary packages for the tutorial notebooks in a shared Conda environment accessible by everyone on both the **NOC** and **JASMIN DSPs**.
 
 ??? info "What is Conda?"
 
@@ -68,7 +108,7 @@ We have already installed all of the necessary packages for the tutorial noteboo
     * **Miniconda** - Minimal version of Anaconda.
     * **Miniforge** - Minimal Conda package manager using only conda-forge (community) channel, exempt from licensing above.
 
-To install a Jupyter kernel for the `env_nemo_npd` shared Conda environment, run the following command in your terminal:
+To install a Jupyter kernel for the `env_nemo_npd` shared Conda environment, run the following command in your terminal (this applies to both the **NOC** and **JASMIN DSPs**):
 
 ```bash
 /groups/npd-workshop/env_nemo_npd/bin/python -m ipykernel install --user --name env_nemo_npd --display-name "NPD Hackathon (env_nemo_npd)"
@@ -77,20 +117,6 @@ To install a Jupyter kernel for the `env_nemo_npd` shared Conda environment, run
 This will add a new Jupyter kernel called env_nemo_npd to your kernelspec.
 
 Now, when we open a Jupyter Notebook (e.g., `tutorials/tutorial_0_getting_started_with_xarray.ipynb`), we will see a **Select Kernel** drop-down menu and included in the list is `NPD Hackathon (env_nemo_npd)` kernel.
-
-## **Using the NOC Data Science Platform (JASMIN)**
-
-To get started using the NOC DSP:
-
-```python
-```
-
-## **Using JASMIN**
-
-To get started using the JASMIN data analysis facility:
-
-```python
-```
 
 ## **Using a Personal Machine**
 
