@@ -46,21 +46,6 @@ In addition to the local **NOC DSP**, we also have access to a Data Science Plat
 
     Using the **Launcher**, scroll down to **Other** section & open a new **Terminal**, which will open in your home directory.
 
-    Next, let's make a local copy of the `NOC_NPD_Hackathon` GitHub repository containing the tutorials and example Jupyter Notebooks used in the Hackathon.
-
-    ```bash
-    git clone https://github.com/NOC-MSM/NOC_NPD_Hackathon.git
-    ```
-
-    Once the download is complete, you will see that a new `NOC_NPD_Hackathon` directory has been added to your home directory.
-
-    Inside `NOC_NPD_Hackathon`, you will find:
-
-    * `/docs` - Documentation source files for this [**NPD Hackathon website**](https://noc-msm.github.io/NOC_NPD_Hackathon/)
-
-    * `/tutorials` - Jupyter Notebooks for Tutorials 0-2
-
-    * `/examples` - Jupyter Notebook Examples for Science Themes
 
 === "JASMIN DSP"
 
@@ -68,21 +53,22 @@ In addition to the local **NOC DSP**, we also have access to a Data Science Plat
 
     Using the **Launcher**, scroll down to **Other** section & open a new **Terminal**, which will open in your home directory.
 
-    Next, let's make a local copy of the `NOC_NPD_Hackathon` GitHub repository containing the tutorials and example Jupyter Notebooks used in the Hackathon.
 
-    ```bash
-    git clone https://github.com/NOC-MSM/NOC_NPD_Hackathon.git
-    ```
+Next, let's make a local copy of the `NOC_NPD_Hackathon` GitHub repository containing the tutorials and example Jupyter Notebooks used in the Hackathon.
 
-    Once the download is complete, you will see that a new `NOC_NPD_Hackathon` directory has been added to your home directory.
+```bash
+git clone https://github.com/NOC-MSM/NOC_NPD_Hackathon.git
+```
 
-    Inside `NOC_NPD_Hackathon`, you will find:
+Once the download is complete, you will see that a new `NOC_NPD_Hackathon` directory has been added to your home directory.
 
-    * `/docs` - Documentation source files for this [**NPD Hackathon website**](https://noc-msm.github.io/NOC_NPD_Hackathon/)
+Inside `NOC_NPD_Hackathon`, you will find:
 
-    * `/tutorials` - Jupyter Notebooks for Tutorials 0-2
+* `/docs` - Documentation source files for this [**NPD Hackathon website**](https://noc-msm.github.io/NOC_NPD_Hackathon/)
 
-    * `/examples` - Jupyter Notebook Examples for Science Themes
+* `/tutorials` - Jupyter Notebooks for Tutorials 0-2
+
+* `/examples` - Jupyter Notebook Examples for Science Themes
 
 !!! note
 
