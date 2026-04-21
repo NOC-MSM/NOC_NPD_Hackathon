@@ -1,5 +1,7 @@
 ## **NOC Near-Present Day Hackathon**
 
+**Last Updated: 21/04/2026**
+
 :book: [**Documentation**](https://noc-msm.github.io/NOC_NPD_Hackathon/)
 
 The **National Oceanography Centre Near-Present Day Hackathon** is a two-day hackathon event taking place on 19th - 20th January 2026.
